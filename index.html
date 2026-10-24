@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spor Yayınevi ve Kitabevi – Spor bilimleri kitapları</title>
+<meta name="description" content="Antrenman bilimi, egzersiz fizyolojisi, sporcu beslenmesi ve spor kültürü üzerine basılı ve elektronik kitaplar. 2.000 ₺ üzeri kargo ücretsiz.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- HEADER -->
+<div class="announce"><strong>2.000 ₺</strong> ve üzeri alışverişlerde kargo ücretsiz</div>
+<header class="header">
+  <div class="wrap header-row">
+    <button class="icon-btn menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="site-nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <a class="logo" href="index.html"><b>Spor Yayınevi</b><small>ve Kitabevi</small></a>
+    <form class="search" role="search" action="#">
+      <label class="sr-only" for="q">Kitap ara</label>
+      <input id="q" type="search" placeholder="Kitap, yazar veya konu ara…">
+      <button type="submit" aria-label="Ara"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+    </form>
+    <div class="header-actions">
+      <a class="icon-btn" href="#" aria-label="Hesabım"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></a>
+      <a class="icon-btn" href="#" aria-label="Sepet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span class="badge" data-cart-count hidden>0</span></a>
+    </div>
+  </div>
+  <nav class="nav" id="site-nav" aria-label="Ana menü">
+    <div class="wrap">
+      <form class="search mobile-search" role="search" action="#">
+        <label class="sr-only" for="q2">Kitap ara</label>
+        <input id="q2" type="search" placeholder="Kitap, yazar veya konu ara…">
+        <button type="submit" aria-label="Ara"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+      </form>
+      <ul>
+        <li><a href="index.html" data-nav="home">Anasayfa</a></li>
+        <li><a href="#yeni" data-nav="books">Kitaplar</a></li>
+        <li><a href="#kategoriler">E-Kitaplar</a></li>
+        <li><a href="#yazar">Yazarlar</a></li>
+        <li><a href="#">Spor Günlüğü</a></li>
+        <li><a href="#">Videolar</a></li>
+        <li><a href="#">Kitap Kataloğu</a></li>
+        <li><a href="#">Kargo Takibi</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!-- /HEADER -->
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Spor okurlarının buluşma yeri</p>
+        <h1>Spor bilimine dair güvenilir kaynaklar</h1>
+        <p class="lead">Antrenman bilimi, egzersiz fizyolojisi ve spor kültürü üzerine özenle seçilmiş telif ve çeviri kitaplar. Basılı, elektronik ve video içeriklerle kuramdan uygulamaya.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#yeni">Kitapları İnceleyin</a>
+          <a class="btn btn-ghost" href="#kategoriler">E-Kitaplar</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>150+</b>yayın</div>
+          <div><b>E-Kitap</b>dijital yayınlar</div>
+          <div><b>2.000 ₺</b>üzeri ücretsiz kargo</div>
+        </div>
+      </div>
+      <div class="hero-books" aria-hidden="true">
+        <img src="assets/img/b51651.jpg" alt="">
+        <img src="assets/img/b7481.jpg" alt="">
+        <img src="assets/img/b56668.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="yeni">
+    <div class="wrap">
+      <div class="section-head">
+        <div><h2>Yeni Çıkanlar</h2><p>Yayınevimizden en son çıkan kitaplar</p></div>
+        <a class="link-more" href="#">Tümünü gör →</a>
+      </div>
+      <div class="books" data-books="57083,57186,56668,56579,55920,52324"></div>
+    </div>
+  </section>
+
+  <section class="section section-soft" id="kategoriler">
+    <div class="wrap">
+      <div class="section-head"><div><h2>Konulara Göre Keşfedin</h2><p>İlgi alanınıza uygun kitabı hızla bulun</p></div></div>
+      <div class="cats">
+        <a class="cat" href="#"><span class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6v12M18 6v12M3 9v6M21 9v6M6 12h12"/></svg></span><span><b>Antrenman Bilimi</b><span>Kuvvet, kondisyon, dönemleme</span></span></a>
+        <a class="cat" href="#"><span class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></span><span><b>Egzersiz Fizyolojisi</b><span>Spor bilimi ve sağlığı</span></span></a>
+        <a class="cat" href="#"><span class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="5" r="2"/><path d="m9 22 1-7-3-3 3-4h4l3 4-3 3 1 7"/></svg></span><span><b>Fitness</b><span>HIIT, ağırlık, fonksiyonel</span></span></a>
+        <a class="cat" href="#"><span class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21c-4-3-8-6-8-11a4 4 0 0 1 8-1 4 4 0 0 1 8 1c0 5-4 8-8 11Z"/></svg></span><span><b>Spor Sağlığı</b><span>Beslenme, rehabilitasyon</span></span></a>
+        <a class="cat" href="#"><span class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 8 12 4l9 4-9 4-9-4Z"/><path d="M7 10v5c3 2 7 2 10 0v-5"/></svg></span><span><b>Spor Eğitimi</b><span>Beden eğitimi, motor öğrenme</span></span></a>
+        <a class="cat" href="#"><span class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h11l3 3v13H5Z"/><path d="M9 9h6M9 13h6M9 17h4"/></svg></span><span><b>Spor Kültürü</b><span>Tarih, yönetim, olimpizm</span></span></a>
+        <a class="cat" href="#"><span class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m20 20-5.5-5.5"/></svg></span><span><b>Araştırmalar</b><span>Akademik çalışmalar</span></span></a>
+        <a class="cat" href="#"><span class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M11 18h2"/></svg></span><span><b>E-Kitaplar</b><span>Dijital yayınlar</span></span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="yazar">
+    <div class="wrap author">
+      <a class="author-book" href="#"><img src="assets/img/b7481.jpg" alt="Yüksek Şiddetli İnterval Antrenman kitap kapağı" loading="lazy"></a>
+      <div>
+        <p class="eyebrow">Ayın Yazarı</p>
+        <h2>Paul Laursen</h2>
+        <p class="role">Yüksek Şiddetli İnterval Antrenman (HIIT) · Martin Buchheit ile</p>
+        <p>Dayanıklılık antrenörü ve spor bilimci Paul Laursen, Auckland Teknoloji Üniversitesi'nde doçent olarak görev yaptı ve yüksek şiddetli interval antrenman konusundaki araştırmalarıyla uluslararası alanda tanınıyor. Martin Buchheit ile birlikte yazdığı bu kapsamlı eser, HIIT'in bilimsel temellerini ve sahadaki uygulamalarını bir araya getiriyor.</p>
+        <ul class="facts"><li>704 sayfa</li><li>20 × 27,5 cm</li><li>Renkli baskı, ciltli</li><li>2025</li></ul>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#">Kitabı İncele</a>
+          <button class="btn btn-ghost add-text" type="button" data-add>Sepete Ekle · ₺2.500,00</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="wrap">
+      <div class="section-head">
+        <div><h2>Çok Satanlar</h2><p>Antrenörlerin ve öğrencilerin başucu kitapları</p></div>
+        <a class="link-more" href="#">Tümünü gör →</a>
+      </div>
+      <div class="books" data-books="7481,51651,7503,14532,16724,51463"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap trust">
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg><p><b>Ücretsiz Kargo</b><span>2.000 ₺ ve üzeri siparişlerde</span></p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><p><b>Güvenli Ödeme</b><span>3D Secure kredi kartı veya havale</span></p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2"/><path d="M4 4v4h4"/></svg><p><b>14 Gün İade</b><span>Kolay iade politikası</span></p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M8 10h8M8 14h5"/></svg><p><b>Toplu Satış</b><span>Kurum ve kulüplere özel fiyat</span></p></div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="newsletter">
+      <div>
+        <h2>Spor Günlüğü'ne katılın</h2>
+        <p>Yeni kitaplar, indirimler ve spor bilimi yazıları e-postanızda.</p>
+      </div>
+      <form data-newsletter>
+        <label class="sr-only" for="email">E-posta adresiniz</label>
+        <input id="email" type="email" required placeholder="E-posta adresiniz">
+        <button class="btn btn-light" type="submit">Abone Ol</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" id="iletisim">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="logo" href="index.html"><b>Spor Yayınevi</b><small>ve Kitabevi</small></a>
+      <p>Spor bilimleri alanında telif ve çeviri eserler yayımlıyoruz.</p>
+      <div class="social">
+        <a href="https://www.facebook.com/sporyayinevi" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4 1.7-4 4v2H7v4h3v8h4v-8h3l1-4h-4V8.5c0-.3.2-.5.5-.5Z"/></svg></a>
+        <a href="https://www.instagram.com/sporyayinevi" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="mailto:destek@sporyayinevi.com" aria-label="E-posta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Mağaza</h4>
+      <ul><li><a href="#">Tüm Kitaplar</a></li><li><a href="#">E-Kitaplar</a></li><li><a href="#">Yazarlar</a></li><li><a href="#">Kitap Kataloğu</a></li><li><a href="#">Uluslararası Yayın Erişimi</a></li></ul>
+    </div>
+    <div>
+      <h4>Yardım</h4>
+      <ul><li><a href="#">Hesabım</a></li><li><a href="#">Kargo Takibi</a></li><li><a href="#">Kargo ve İade Koşulları</a></li><li><a href="#">Mesafeli Satış Sözleşmesi</a></li><li><a href="#">KVKK Aydınlatma Metni</a></li></ul>
+    </div>
+    <div>
+      <h4>İletişim</h4>
+      <ul><li><a href="tel:+903122226717">0312 222 67 17</a></li><li><a href="mailto:destek@sporyayinevi.com">destek@sporyayinevi.com</a></li></ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Spor Yayınevi ve Kitabevi. Tüm hakları saklıdır.</span>
+    <span class="pay" aria-label="Kabul edilen ödeme yöntemleri"><span>VISA</span><span>Mastercard</span><span>Maestro</span><span>Havale/EFT</span></span>
+  </div>
+</footer>
+<!-- /FOOTER -->
+<script src="assets/app.js"></script>
+</body>
+</html>
